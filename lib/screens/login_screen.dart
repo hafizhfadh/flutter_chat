@@ -35,6 +35,10 @@ class _LoginScreenState extends State<LoginScreen> {
         _isLoading = true;
       });
     }
+
+    setState(() {
+      _isLoading = false;
+    });
   }
 
   @override

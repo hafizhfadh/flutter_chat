@@ -37,9 +37,7 @@ class _ChatListScreenState extends State<ChatListScreen> {
         ],
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          context.push('/start_chat');
-        },
+        onPressed: () => context.push('/start_chat'),
         child: const Icon(Icons.add),
       ),
       body: FutureBuilder<List<Map<String, dynamic>>>(

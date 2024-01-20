@@ -10,6 +10,8 @@ class StartChatScreen extends StatefulWidget {
 class _StartChatScreenState extends State<StartChatScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Center(child: Text("Bisa"),),
+    );
   }
 }
